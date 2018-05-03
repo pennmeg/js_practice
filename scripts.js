@@ -9,7 +9,7 @@ $(document).ready(function () {
   });
   purpleButton.addEventListener("click", function(e){
     console.log("--- purple button clicked ---");
-    buttonText.innerText = "No I'm Right";
+    buttonText.innerText = "No, I'm Right";
   });
   // Hover Challenge
   $("#hoverBox").mouseenter(function(e){
@@ -20,5 +20,10 @@ $(document).ready(function () {
   .mouseleave(function(e){
     hoverBox.innerHTML = "<p>Do not hover over me.</p>";
     hoverBox.style = "background-color: red";
+  });
+  // Keypress function
+  $(document).keypress(function(event){
+    console.log("--- keypress ---");
+    $("#keystroke").text(String.fromCharCode(event.which));
   });
 });
