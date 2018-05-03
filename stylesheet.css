@@ -1,0 +1,20 @@
+html, body {
+  text-align: center;
+  margin: 50px;
+}
+.challenge {
+  border: 2px black solid;
+  padding: 10px;
+}
+#buttonOne {
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+  border: none;
+}
+#buttonTwo {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  border: none;
+}
