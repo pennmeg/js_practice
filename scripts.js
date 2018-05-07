@@ -11,6 +11,11 @@ $(document).ready(function () {
     console.log("--- purple button clicked ---");
     buttonText.innerText = "No, I'm Right";
   });
+  // Green Buttons
+  $('.buttonGreen').click(function(e){
+    console.log("--- buttons should turn green ---");
+    $('.buttonGreen').css("background-color", "green");
+  });
   // Hover Challenge
   $("#hoverBox").mouseenter(function(e){
     console.log("=== mouse hovers over box ===");
